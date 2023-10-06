@@ -1,0 +1,152 @@
+
+.dark{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(46, 46, 46);
+    color: rgb(239, 239, 239);
+    .subtitulos{
+        color: rgb(230, 230, 230);
+        margin-left: 4%;
+        margin-top: 3%;
+    }
+    #carrito {
+        background-color: aliceblue;
+        color: black;
+        z-index: 1;
+        position: fixed; 
+        right: 5%;
+        bottom: 5%;
+        border-radius: 10px;
+        opacity: 0.7;
+        width: 25%;
+    }
+    .titulosCarrito{
+        text-align: center;
+    }
+    .detalleCarrito{
+        padding: 1%;
+        margin: 1%;
+        color: rgb(30, 30, 30);
+    } 
+    #mode{
+        background-color: rgb(229, 229, 229);
+        color: rgb(87, 87, 87);
+    }
+    .card{
+        background-color: rgb(155, 164, 181);
+        
+    }
+    .card-title, .card-subtitle, .card-text{
+        color: rgb(57, 72, 103);
+    }
+}
+
+.light{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(229, 229, 229);
+    color: black;
+    .subtitulos{
+        color: rgb(72, 72, 72);
+        margin-left: 4%;
+        margin-top: 3%;
+    }
+    #carrito {
+        background-color: rgb(61, 64, 67);
+        color: black;
+        z-index: 1;
+        position: fixed; 
+        right: 5%;
+        bottom: 5%;
+        border-radius: 10px;
+        opacity: 0.7;
+        width: 25%;
+    }
+    .titulosCarrito{
+        color: whitesmoke;
+        text-align: center;
+    }
+    .detalleCarrito{
+        padding: 1%;
+        margin: 1%;
+        color: white;
+    } 
+    #mode{
+        background-color: rgb(87, 87, 87);
+        color: rgb(229, 229, 229);;
+    }
+    .card{
+        background-color: rgb(107, 108, 108);
+        
+    }
+    .card-title, .card-subtitle, .card-text{
+        color: rgb(216, 216, 216);
+    }
+}
+#mode{
+    height: 50%;
+}
+#articulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+#cartas{
+    margin-bottom: 25px;
+}
+/* body{
+    color: beige;
+}
+ */
+.cajasTexto{
+    padding: 1%;
+    margin: 0.5%;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 4%;
+}
+#sendBtn{
+    text-align: center;
+    width: 10%;
+    margin-left: 1%;
+    background-color: rgb(78, 99, 241);
+    color: white;
+    border-radius: 8px;
+    padding: 0.5%;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+#tablabody{
+    margin-bottom: 15px;
+}
+.textoMarket{
+    margin-left: 4%;
+}
+.formulario{
+    margin-left: 4%;
+    width: 25%;
+}
+
+.card-link{
+    margin-left: 10%;
+}
+
+/* #carrito {
+    background-color: aliceblue;
+    color: black;
+    z-index: 1;
+    position: fixed; 
+    right: 5%;
+    bottom: 5%;
+    border-radius: 10px;
+    opacity: 0.7;
+    width: 25%;
+} */
+a{
+    margin: 2%;
+}
+
+.finalizarCompra{
+    margin-left: 30%;
+    margin-bottom: 1%;
+}
