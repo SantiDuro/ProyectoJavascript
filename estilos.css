@@ -95,10 +95,7 @@
 #cartas{
     margin-bottom: 25px;
 }
-/* body{
-    color: beige;
-}
- */
+
 .cajasTexto{
     padding: 1%;
     margin: 0.5%;
@@ -131,18 +128,6 @@
 .card-link{
     margin-left: 10%;
 }
-
-/* #carrito {
-    background-color: aliceblue;
-    color: black;
-    z-index: 1;
-    position: fixed; 
-    right: 5%;
-    bottom: 5%;
-    border-radius: 10px;
-    opacity: 0.7;
-    width: 25%;
-} */
 a{
     margin: 2%;
 }

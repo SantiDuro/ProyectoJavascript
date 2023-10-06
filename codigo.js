@@ -22,7 +22,7 @@ formulario.addEventListener('click', (evento) => {
     baseDeDatos.push(nuevoSocio);
     console.table(baseDeDatos);
 
-    
+
     //Enviar datos del socio a la API
 
     function enviarSocio(){
@@ -146,7 +146,6 @@ function agregarClickEvents() {
 //Desarrollo del carrito
 
 let carrito = []; 
-/* console.table(carrito); */
 
 renderizarPlanes(planes);
 renderizarAccesorios(listaAccesorios);

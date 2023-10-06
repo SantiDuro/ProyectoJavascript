@@ -31,9 +31,7 @@ const rodilleras = new Accesorio(9, "Rodilleras de neoprene", "Full Fitness", 14
 const cinturon = new Accesorio(10, "Cinturon de fuerza", "Full Fitness", 23500, 'imgJS/cinto.webp');
 const muniequeras = new Accesorio(11, "Muñequeras elasticas", "Full Fitness", 16800, 'imgJS/muñequeras.webp');
 const mangas = new Accesorio(12, "Mangas Protectoras", "Full Fitness", 4000);
-/* const ninguno = new Accesorio(7, "Ninguno", ".", 0); */
 
 //Accesorios
 const listaAccesorios = [];
 listaAccesorios.push(aguaChica, aguaGrande, barrita, cremaDeMani, powerade, cafe, cupcake, calleras, soga, rodilleras, cinturon, muniequeras, mangas);
-/* console.table(listaAccesorios); */
